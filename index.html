@@ -620,6 +620,7 @@
         Everything is loaded including images.
     */
     $(window).load(function () {
+        $('body').addClass('loaded');
 
         adjustHeightOfPage(1); // Adjust page height
 
@@ -668,7 +669,7 @@
         });
 
         // Remove preloader (https://ihatetomatoes.net/create-custom-preloading-screen/)
-        /*$('body').addClass('loaded');*/
+
 
     });
 
