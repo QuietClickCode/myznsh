@@ -1,2 +1,2 @@
 # QuietClickCode.github.io
-个人博客
+美食网站
